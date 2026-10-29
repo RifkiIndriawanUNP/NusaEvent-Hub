@@ -1,0 +1,73 @@
+import 'package:flutter/material.dart';
+import '../models/event_item.dart';
+
+const List<String> categories = ['Semua', 'AI', 'Mobile', 'IoT', 'Cybersecurity'];
+
+const List<EventItem> sampleEvents = [
+  EventItem(
+      id: 'e1',
+      title: 'Intro to Machine Learning',
+      category: 'AI',
+      speaker: 'Dr. Rina Putri',
+      date: '10 Nov 2026',
+      venue: 'Auditorium',
+      color: Color(0xFF9B4DFF),
+      colorEnd: Color(0xFF230A52),
+      icon: Icons.psychology,
+      poster: 'assets/images/ml.png'),
+  EventItem(
+      id: 'e2',
+      title: 'Generative AI Workshop',
+      category: 'AI',
+      speaker: 'Budi Santoso',
+      date: '11 Nov 2026',
+      venue: 'Lab Komputer 1',
+      color: Color(0xFFFF4F8B),
+      colorEnd: Color(0xFF2E1468),
+      icon: Icons.auto_awesome,
+      poster: 'assets/images/genai.png'),
+  EventItem(
+      id: 'e3',
+      title: 'Flutter untuk Pemula',
+      category: 'Mobile',
+      speaker: 'Andi Wijaya',
+      date: '12 Nov 2026',
+      venue: 'Ruang Seminar A',
+      color: Color(0xFF2979FF),
+      colorEnd: Color(0xFF0A1B5C),
+      icon: Icons.phone_android,
+      poster: 'assets/images/flutter.png'),
+  EventItem(
+      id: 'e4',
+      title: 'Smart Home dengan ESP32',
+      category: 'IoT',
+      speaker: 'Siti Aminah',
+      date: '13 Nov 2026',
+      venue: 'Lab IoT',
+      color: Color(0xFF1FAE4B),
+      colorEnd: Color(0xFF06311A),
+      icon: Icons.sensors,
+      poster: 'assets/images/iot.png'),
+  EventItem(
+      id: 'e5',
+      title: 'Ethical Hacking Basics',
+      category: 'Cybersecurity',
+      speaker: 'Rizky Pratama',
+      date: '14 Nov 2026',
+      venue: 'Ruang Seminar B',
+      color: Color(0xFFFF6A1A),
+      colorEnd: Color(0xFF4A1A08),
+      icon: Icons.security,
+      poster: 'assets/images/hacking.png'),
+  EventItem(
+      id: 'e6',
+      title: 'Keamanan Aplikasi Web',
+      category: 'Cybersecurity',
+      speaker: 'Dewi Lestari',
+      date: '15 Nov 2026',
+      venue: 'Auditorium',
+      color: Color(0xFFE59A1A),
+      colorEnd: Color(0xFF4A2F08),
+      icon: Icons.lock,
+      poster: 'assets/images/websec.png'),
+];
